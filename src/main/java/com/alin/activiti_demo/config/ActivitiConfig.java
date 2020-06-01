@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
 
-//@Configuration
+@Configuration
 public class ActivitiConfig {
 
     @Autowired
@@ -19,9 +19,8 @@ public class ActivitiConfig {
 
     /**
      * 初始化配置表
-     * @return
      */
-//    @Bean
+    @Bean
     public StandaloneProcessEngineConfiguration processEngineConfiguration() {
         StandaloneProcessEngineConfiguration configuration = new StandaloneProcessEngineConfiguration();
         configuration.setDataSource(dataSource);
@@ -32,9 +31,8 @@ public class ActivitiConfig {
 
     /**
      * 初始化引擎
-     * @return
      */
-//    @Bean
+    @Bean
     public ProcessEngine processEngine(){
         return processEngineConfiguration().buildProcessEngine();
     }
