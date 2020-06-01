@@ -1,0 +1,12 @@
+2020-06-01 09:57:35 [main] INFO  com.alin.activiti_demo.ActivitiDemoApplication - Starting ActivitiDemoApplication on WIN-IKAP4KVBGPK with PID 2344 (D:\ekingo\code\activiti_demo\target\classes started by Administrator in D:\ekingo\code\activiti_demo)
+2020-06-01 09:57:35 [main] INFO  com.alin.activiti_demo.ActivitiDemoApplication - No active profile set, falling back to default profiles: default
+2020-06-01 09:57:36 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-01 09:57:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-01 09:57:36 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-01 09:57:36 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-01 09:57:37 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-01 09:57:37 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1507 ms
+2020-06-01 09:57:37 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-01 09:57:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-01 09:57:37 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-01 09:57:37 [main] INFO  com.alin.activiti_demo.ActivitiDemoApplication - Started ActivitiDemoApplication in 3.082 seconds (JVM running for 4.391)
